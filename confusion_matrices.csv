@@ -1,0 +1,17 @@
+target,model,tn,fp,fn,tp
+campaign_success,K-Nearest Neighbours,241,77,73,196
+campaign_success,Decision Tree,263,55,67,202
+campaign_success,Random Forest,262,56,42,227
+campaign_success,Gradient Boosted Trees,256,62,49,220
+supply_ok,K-Nearest Neighbours,0,89,0,498
+supply_ok,Decision Tree,57,32,34,464
+supply_ok,Random Forest,28,61,3,495
+supply_ok,Gradient Boosted Trees,60,29,11,487
+finance_ok,K-Nearest Neighbours,221,72,67,227
+finance_ok,Decision Tree,227,66,51,243
+finance_ok,Random Forest,239,54,38,256
+finance_ok,Gradient Boosted Trees,248,45,40,254
+demand_target_achieved,K-Nearest Neighbours,25,158,12,392
+demand_target_achieved,Decision Tree,68,115,34,370
+demand_target_achieved,Random Forest,45,138,19,385
+demand_target_achieved,Gradient Boosted Trees,64,119,27,377

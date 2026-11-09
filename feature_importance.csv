@@ -1,0 +1,89 @@
+target,model,feature,importance,std
+campaign_success,Gradient Boosted Trees,projected_roi,0.2107064366042412,0.018443598985200187
+campaign_success,Gradient Boosted Trees,inventory_coverage_ratio,0.07131876738911884,0.00822065373018554
+campaign_success,Gradient Boosted Trees,warehouse_utilization_pct,0.0341966519370602,0.0066974558660031856
+campaign_success,Gradient Boosted Trees,gross_margin_after_disc_pct,0.025471405859110174,0.005318460709211105
+campaign_success,Gradient Boosted Trees,competitor_intensity,0.011327768815318828,0.0023368269201020186
+campaign_success,Gradient Boosted Trees,discount_pct,0.008973662060742113,0.0029891519204217273
+campaign_success,Gradient Boosted Trees,lead_time_to_launch_days,0.008319012882560609,0.00386672355308739
+campaign_success,Gradient Boosted Trees,channel_hist_conv_rate_pct,0.0072756657548338766,0.0027620095789407284
+campaign_success,Gradient Boosted Trees,brand_fit_score,0.00570918379275677,0.0021176864795135163
+campaign_success,Gradient Boosted Trees,expected_uplift_pct,0.004470026419770429,0.003705173138384479
+campaign_success,Gradient Boosted Trees,festive_window,0.0018952678216548613,0.0019352291986782031
+campaign_success,Gradient Boosted Trees,logistics_capacity_available_pct,0.0011646325781487776,0.0015189448081714383
+campaign_success,Gradient Boosted Trees,log_budget,0.0008387692595450413,0.001434890237274364
+campaign_success,Gradient Boosted Trees,cost_per_reach_inr,0.0006444202847724484,0.0011759432950919067
+campaign_success,Gradient Boosted Trees,supplier_lead_time_days,0.0005406700801944969,0.0006272987587354472
+campaign_success,Gradient Boosted Trees,channel,0.00022941946646093392,0.0004220188632753125
+campaign_success,Gradient Boosted Trees,campaign_type,4.383811461075582e-06,0.0014011862033945397
+campaign_success,Gradient Boosted Trees,dept_budget_headroom_pct,-0.00017827499941544533,0.001479819033796119
+campaign_success,Gradient Boosted Trees,product_category,-0.00021626803207780432,0.00033851049158473297
+campaign_success,Gradient Boosted Trees,region,-0.0009074489724345408,0.0015445615223015925
+campaign_success,Gradient Boosted Trees,duration_days,-0.0009352131116878021,0.0019443487409935903
+campaign_success,Gradient Boosted Trees,supplier_lead_gap_days,-0.001072572537466926,0.001016452020035646
+demand_target_achieved,Gradient Boosted Trees,competitor_intensity,0.11280805334631834,0.018309080027682955
+demand_target_achieved,Gradient Boosted Trees,lead_time_to_launch_days,0.10943671211383443,0.01296762276288094
+demand_target_achieved,Gradient Boosted Trees,channel_hist_conv_rate_pct,0.013468457501487938,0.008250278344678614
+demand_target_achieved,Gradient Boosted Trees,logistics_capacity_available_pct,0.007216935832927651,0.0014298464894783025
+demand_target_achieved,Gradient Boosted Trees,projected_roi,0.005852506357193199,0.002679871543928861
+demand_target_achieved,Gradient Boosted Trees,discount_pct,0.004539644538224419,0.0018097291563081998
+demand_target_achieved,Gradient Boosted Trees,brand_fit_score,0.004191351512200528,0.0011655866395046067
+demand_target_achieved,Gradient Boosted Trees,duration_days,0.004178670940864715,0.0011505126157116748
+demand_target_achieved,Gradient Boosted Trees,expected_uplift_pct,0.0033180828328736034,0.002877364049156304
+demand_target_achieved,Gradient Boosted Trees,festive_window,0.0027719728940108213,0.005732585164896705
+demand_target_achieved,Gradient Boosted Trees,cost_per_reach_inr,0.002635868095006308,0.0013421293059339427
+demand_target_achieved,Gradient Boosted Trees,campaign_type,0.002281657469025658,0.0015121591803877582
+demand_target_achieved,Gradient Boosted Trees,inventory_coverage_ratio,0.0017507642157659487,0.003390973403066893
+demand_target_achieved,Gradient Boosted Trees,dept_budget_headroom_pct,0.0013771100470704178,0.000785705773018138
+demand_target_achieved,Gradient Boosted Trees,supplier_lead_time_days,0.001031353135313634,0.0005023412953835488
+demand_target_achieved,Gradient Boosted Trees,log_budget,0.00014709462749558366,0.00019582714697018332
+demand_target_achieved,Gradient Boosted Trees,region,5.9175999567243065e-05,0.000339965463224926
+demand_target_achieved,Gradient Boosted Trees,product_category,0.0,0.0
+demand_target_achieved,Gradient Boosted Trees,channel,-0.0001775279987014794,0.0001754059125137262
+demand_target_achieved,Gradient Boosted Trees,gross_margin_after_disc_pct,-0.0003846439971864901,0.0009694279969098789
+demand_target_achieved,Gradient Boosted Trees,warehouse_utilization_pct,-0.0007388546231671539,0.002097681828425581
+demand_target_achieved,Gradient Boosted Trees,supplier_lead_gap_days,-0.002274894497646382,0.001773259405821566
+finance_ok,Random Forest,projected_roi,0.1827005119453925,0.017098916516314133
+finance_ok,Random Forest,inventory_coverage_ratio,0.04541774047502957,0.0054844656166643056
+finance_ok,Random Forest,gross_margin_after_disc_pct,0.01977911471755936,0.004317980798609772
+finance_ok,Random Forest,warehouse_utilization_pct,0.011195177729794961,0.0019775354739556055
+finance_ok,Random Forest,lead_time_to_launch_days,0.010633604977827268,0.000970961902314114
+finance_ok,Random Forest,competitor_intensity,0.008436651110956303,0.0019527606341956513
+finance_ok,Random Forest,expected_uplift_pct,0.007383158041373461,0.0024892338350065114
+finance_ok,Random Forest,channel_hist_conv_rate_pct,0.004839393095121991,0.0017473604746690683
+finance_ok,Random Forest,log_budget,0.0029834459381021528,0.001006137691794534
+finance_ok,Random Forest,discount_pct,0.0029500708133082254,0.0022363282755567355
+finance_ok,Random Forest,festive_window,0.0029471686285435783,0.0022637520206043767
+finance_ok,Random Forest,brand_fit_score,0.0026366348587216065,0.0010202562329825733
+finance_ok,Random Forest,duration_days,0.0018095122007847075,0.002439226731012501
+finance_ok,Random Forest,campaign_type,0.0017108379187852074,0.000940844032849447
+finance_ok,Random Forest,supplier_lead_gap_days,0.0011993278540084057,0.0007663358181363483
+finance_ok,Random Forest,channel,0.0009569954261567232,0.0009453438104106688
+finance_ok,Random Forest,cost_per_reach_inr,0.0008488890436720575,0.0010022448330989058
+finance_ok,Random Forest,product_category,0.0005557683824382736,0.0003067233114922415
+finance_ok,Random Forest,supplier_lead_time_days,0.0004034036822919834,0.0008742419146481689
+finance_ok,Random Forest,region,-7.763344245551029e-05,0.0006368092921889371
+finance_ok,Random Forest,dept_budget_headroom_pct,-0.0004556430080565055,0.0005967431070996249
+finance_ok,Random Forest,logistics_capacity_available_pct,-0.0006696791344524833,0.0008369215413538079
+supply_ok,Gradient Boosted Trees,inventory_coverage_ratio,0.2432821172329769,0.008270583530255596
+supply_ok,Gradient Boosted Trees,warehouse_utilization_pct,0.10953081990884891,0.010881932524862335
+supply_ok,Gradient Boosted Trees,logistics_capacity_available_pct,0.019967510491403856,0.006903808592367654
+supply_ok,Gradient Boosted Trees,lead_time_to_launch_days,0.0045067912097830065,0.0013243501916426757
+supply_ok,Gradient Boosted Trees,competitor_intensity,0.0016526781282433511,0.00379778420935103
+supply_ok,Gradient Boosted Trees,cost_per_reach_inr,0.001520125445602663,0.0004144837283361803
+supply_ok,Gradient Boosted Trees,expected_uplift_pct,0.001401674112179091,0.0011167948090129998
+supply_ok,Gradient Boosted Trees,projected_roi,0.0013960335724922807,0.001173689781551107
+supply_ok,Gradient Boosted Trees,supplier_lead_gap_days,0.0013339876359370617,0.0015309649826177338
+supply_ok,Gradient Boosted Trees,brand_fit_score,0.0007191688100717658,0.0012244226778657754
+supply_ok,Gradient Boosted Trees,product_category,0.00034689319074054925,0.00022362090141405291
+supply_ok,Gradient Boosted Trees,log_budget,0.00031587022246293284,0.0012788983097124173
+supply_ok,Gradient Boosted Trees,channel,0.00023408239700378752,0.00010991818549425877
+supply_ok,Gradient Boosted Trees,gross_margin_after_disc_pct,0.00015793511123149417,0.0017918459660497643
+supply_ok,Gradient Boosted Trees,dept_budget_headroom_pct,7.050674608553853e-05,0.0025903146029890344
+supply_ok,Gradient Boosted Trees,discount_pct,4.5124317494732447e-05,0.0008547604683685113
+supply_ok,Gradient Boosted Trees,festive_window,3.948377780788048e-05,6.83879092380095e-05
+supply_ok,Gradient Boosted Trees,campaign_type,-4.7944587338061284e-05,0.0004089974735439421
+supply_ok,Gradient Boosted Trees,supplier_lead_time_days,-0.00029894860340232143,0.0014316196431374754
+supply_ok,Gradient Boosted Trees,region,-0.0003299715716799101,0.0007942502797763384
+supply_ok,Gradient Boosted Trees,channel_hist_conv_rate_pct,-0.0004681647940074779,0.00046235225466637406
+supply_ok,Gradient Boosted Trees,duration_days,-0.0004963674924416128,0.0004658143319810321

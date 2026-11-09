@@ -1,0 +1,26 @@
+rule,column,action,rows_affected
+C0,all,Rows loaded from raw export,2472
+C1,campaign_id,Removed duplicate submissions,72
+C2,submit_date,Converted DD/MM/YYYY dates to ISO,288
+C3,channel,Standardised channel labels,279
+C3,region,Standardised region labels,126
+C4,budget_inr,"Converted '₹x,xx,xxx' text to numeric",159
+C5,discount_pct,Out-of-range values (valid 0-70) set to missing,14
+C5,warehouse_utilization_pct,Out-of-range values (valid 0-100) set to missing,12
+C5,brand_fit_score,Out-of-range values (valid 1-10) set to missing,9
+C5,budget_inr,Out-of-range values (valid 1000-inf) set to missing,9
+C6,budget_inr,Imputed missing with median by channel+campaign_type,57
+C6,discount_pct,Imputed missing with median by campaign_type,85
+C6,supplier_lead_time_days,Imputed missing with median by product_category,60
+C6,brand_fit_score,Imputed missing with median by product_category,57
+C6,warehouse_utilization_pct,Imputed missing with median by region,60
+C6,channel_hist_conv_rate_pct,Imputed missing with median by channel,72
+C6,inventory_on_hand_units,Imputed via category median coverage ratio x projected units,36
+C6,region,Imputed missing with mode,24
+C7,projected_*,Recomputed projections after fixing budget/discount,2400
+C8,manual_decision,Rejected campaigns flagged (no outcome -> excluded from model training),52
+T1-T7,11 new columns,Engineered features,2400
+C9,weekly_category_sales,Checked weekly continuity; interpolated missing weeks,0
+T8,inventory_snapshot,"Added weeks_of_cover, stock_status, suggested_order_qty",200
+T9,pending_campaign_requests,Engineered features for live queue,40
+END,all,Analysis-ready campaign rows,2400
